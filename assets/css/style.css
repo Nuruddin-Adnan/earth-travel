@@ -70,4 +70,43 @@ body {
 /*=== layout css start === */
 /*===// end of layout css === */
 /*=== pages start === */
+.home-page .clients-experience .title {
+  font-size: 62px;
+}
+@media (min-width: 1400px) {
+  .home-page .clients-experience .title {
+    font-size: 72px;
+  }
+}
+.home-page .clients-experience .title-description {
+  color: #9b9b9b;
+}
+.home-page .clients-experience .title-mobile {
+  font-family: muli-bold;
+}
+@media (max-width: 767px) {
+  .home-page .clients-experience .items {
+    padding-left: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .home-page .clients-experience .items img {
+    width: 30px;
+  }
+}
+.home-page .clients-experience .items h5 {
+  font-family: muli-bold;
+}
+@media (max-width: 767px) {
+  .home-page .clients-experience .items h5 {
+    font-size: 16px;
+  }
+}
+@media (max-width: 767px) {
+  .home-page .clients-experience .items p {
+    font-size: 12px;
+    padding-left: calc(30px + 0.5rem);
+  }
+}
+
 /*===// end of pages  === *//*# sourceMappingURL=style.css.map */
