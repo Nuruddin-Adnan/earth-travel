@@ -1,0 +1,73 @@
+/*=== abstracts css start === */
+@font-face {
+  font-family: muli-regular;
+  src: url(../fonts/Muli-Regular.ttf);
+}
+@font-face {
+  font-family: muli-extrabold;
+  src: url(../fonts/Muli-SemiBold.ttf);
+}
+@font-face {
+  font-family: muli-bold;
+  src: url(../fonts/Muli-Bold.ttf);
+}
+@font-face {
+  font-family: muli-extrabold;
+  src: url(../fonts/Muli-ExtraBold.ttf);
+}
+@font-face {
+  font-family: gilroy-medium;
+  src: url(../fonts/Gilroy-Medium.ttf);
+}
+/*===// end of abstracts css === */
+/*=== base css start === */
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+p,
+address,
+strong,
+i {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+body {
+  font-family: muli-regular;
+  color: #424242;
+}
+
+/*===// end of base css === */
+/*=== components css start === */
+/*===// end of components css === */
+/*=== layout css start === */
+/*===// end of layout css === */
+/*=== pages start === */
+/*===// end of pages  === *//*# sourceMappingURL=style.css.map */
