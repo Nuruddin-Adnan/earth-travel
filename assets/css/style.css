@@ -69,10 +69,102 @@ body {
 /*=== components css start === */
 /*===// end of components css === */
 /*=== layout css start === */
+.navbar.navbar-expand-lg .navbar-nav .nav-link {
+  font-family: muli-semibold;
+  color: #000;
+}
+
+.footer {
+  padding: 60px 0;
+}
+@media (max-width: 1199px) {
+  .footer {
+    padding: 60px 20px;
+  }
+}
+.footer .support-email {
+  font-family: muli-bold;
+  color: #5E6282;
+}
+.footer .link-heading {
+  font-family: muli-extrabold;
+  color: #080809;
+  margin-bottom: 30px;
+}
+.footer .footer-link {
+  color: #5E6282;
+  margin-bottom: 12px;
+  display: block;
+}
+.footer .mobile-app-download-heading {
+  color: #5E6282;
+  font-family: muli-bold;
+  margin-bottom: 20px;
+}
+.footer .copyright {
+  color: #5E6282;
+  font-size: 14px;
+  margin-top: 40px;
+}
+
 /*===// end of layout css === */
 /*=== pages start === */
+@media (min-width: 1199px) {
+  .home-page .filter .filter-wrapper {
+    margin-top: -60px;
+  }
+}
+.home-page .filter .filter-wrapper .blur {
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+}
+.home-page .filter .filter-wrapper .blur .filter-content {
+  background-color: #fff;
+}
+.home-page .filter .nav-pills .nav-link {
+  font-family: muli-bold;
+  color: #000;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-transform: uppercase;
+  margin-right: 7px;
+}
+@media (max-width: 991px) {
+  .home-page .filter .nav-pills .nav-link {
+    background-color: #999999;
+    border-color: transparent;
+    color: #fff;
+    margin-right: 3px;
+    font-size: 13px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+}
+.home-page .filter .nav-pills .nav-link.active, .home-page .filter .nav-pills .show > .nav-link {
+  background-color: #61C38A;
+}
+@media (max-width: 991px) {
+  .home-page .filter .tab-content {
+    background: #61C38A;
+    width: calc(100% + 2rem);
+    padding: 1rem;
+    margin-left: -1rem;
+    margin-bottom: -1rem;
+  }
+}
+.home-page .filter .tab-content .form-label {
+  font-family: muli-bold;
+  font-size: 14px;
+  color: #000;
+}
+.home-page .filter .tab-content .filter-submit-btn {
+  background-color: #1D6059;
+  font-family: muli-bold;
+  color: #fff;
+}
 .home-page .clients-experience {
-  padding: 60px 0;
+  padding: 0 0 60px 0;
+  margin-top: -5%;
 }
 @media (min-width: 992px) {
   .home-page .clients-experience .text-content {
